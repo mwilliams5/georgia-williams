@@ -90,9 +90,9 @@ const galleryItems: GalleryItem[] = [
   },
   {
     src: "/photos/halloween-topgun.jpg",
-    caption: "Halloween 2013",
+    caption: "Halloween 2013 — Georgia is the bunny (left)",
     subCaption:
-      "While her friends chose cute bunny costumes, Georgia chose Top Gun fighter pilot. This tells you everything.",
+      "Halloween 2013. Georgia is the bunny on the left. The adorable one. She&apos;d like that on record.",
     rotate: "-1deg",
   },
   {
@@ -127,7 +127,7 @@ const galleryItems: GalleryItem[] = [
     src: "/photos/georgia-dog-2026.jpg",
     caption: "Priorities, 2026",
     subCaption:
-      "Georgia sharing a Kirkland dog bed with the family Rottweiler. No notes. This is correct behavior.",
+      "Georgia and one of her Rottweilers — a lifelong love affair spanning Sheba, Maisy, Zoey, Maya, Ella, and Brie. No notes. This is correct behavior.",
     rotate: "2deg",
   },
   {
@@ -159,7 +159,7 @@ const funFacts: Fact[] = [
   {
     emoji: "🍳",
     title: "Professional Chef-in-Training",
-    body: "After years of requesting elaborate meals from Dad at unreasonable hours, Georgia enrolled in culinary school and is now actually better at cooking than everyone who ever fed her. Humbling.",
+    body: "After years of requesting elaborate meals from Dad at unreasonable hours, Georgia trained as a chef and is now actually better at cooking than everyone who ever fed her. She has graduated. She is employed. She is dangerous in a kitchen. Humbling.",
   },
   {
     emoji: "🏊",
@@ -169,7 +169,7 @@ const funFacts: Fact[] = [
   {
     emoji: "✈️",
     title: "Fashion-Forward Since Birth",
-    body: "The girl who wore a Top Gun flight suit to Halloween while her friends wore bunny ears has always had her own sense of style. Zero apologies.",
+    body: "Georgia went as a bunny for Halloween 2013 — the cute one on the left — and has always had her own effortless sense of style. Zero apologies, maximum charm.",
   },
   {
     emoji: "📸",
@@ -193,7 +193,7 @@ const milestones: Milestone[] = [
   },
   {
     year: "~2008",
-    text: "Declares a Rottweiler her best friend at dog beach. The feeling is mutual.",
+    text: "With one of her beloved Rottweilers — Sheba, Maisy, Zoey, Maya, Ella, or Brie. The feeling is always mutual.",
   },
   {
     year: "2012",
@@ -201,7 +201,7 @@ const milestones: Milestone[] = [
   },
   {
     year: "2013",
-    text: "Halloween: chooses Top Gun over bunny ears. Legend status confirmed.",
+    text: "Halloween 2013: Georgia is the bunny on the left. Adorable. She wants this noted.",
   },
   {
     year: "2017+",
@@ -416,14 +416,14 @@ export default function Home() {
               </p>
               <p>
                 In her youth, Georgia was a competitive swimmer, a Halloween
-                costume innovator (Top Gun flight suit: iconic), and the kind of
-                kid who adopted every dog she ever met — starting with a
-                Rottweiler she attempted to sit on at the beach. The dog seemed
-                fine with it.
+                costume innovator (she was the bunny — the adorable one on the left), and the kind of
+                kid who loved dogs so deeply that over the years she made a whole
+                roster of Rottweilers her best friends: Sheba, Maisy, Zoey, Maya,
+                Ella, and Brie. Each one hand-picked. Each one completely spoiled.
               </p>
               <p>
-                Today, Georgia is pursuing her passion for food as a culinary
-                student and aspiring chef. She has cooked things that would make
+                Today, Georgia has turned her passion for food into a career —
+                she&apos;s a trained, working chef. She has cooked things that would make
                 Gordon Ramsay weep — in the good way. Her father, who once made
                 her grilled cheese at 11pm on demand, takes full credit for
                 inspiring her culinary career. Georgia disputes this.
