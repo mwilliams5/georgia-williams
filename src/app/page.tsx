@@ -50,12 +50,52 @@ const schoolPhotos: SchoolPhoto[] = [
     rotate: "1.5deg",
   },
   {
+    src: "/photos/4ThirdGrade.jpg",
+    year: "2007",
+    grade: "3rd Grade",
+    caption:
+      "Third grade. She has mastered the art of the school photo smile. The photographer was probably scared.",
+    rotate: "-1.5deg",
+  },
+  {
+    src: "/photos/5FourthGrade.jpg",
+    year: "2008",
+    grade: "4th Grade",
+    caption:
+      "Fourth grade. Growing fast. Still having opinions. Dad still buying every package.",
+    rotate: "2deg",
+  },
+  {
+    src: "/photos/6FifthGrade.jpg",
+    year: "2009",
+    grade: "5th Grade",
+    caption:
+      "Fifth grade. Last year of elementary school. She ran that place and everyone knew it.",
+    rotate: "-1deg",
+  },
+  {
+    src: "/photos/7SixthGrade.jpg",
+    year: "2010",
+    grade: "6th Grade",
+    caption:
+      "Middle school begins. New school, same confidence. The other kids didn't stand a chance.",
+    rotate: "1.5deg",
+  },
+  {
+    src: "/photos/8SeventhGrade.jpg",
+    year: "2011",
+    grade: "7th Grade",
+    caption:
+      "Seventh grade. Peak middle school era. Competitive swimmer. Full personality. No notes.",
+    rotate: "-2deg",
+  },
+  {
     src: "/photos/eighth-grade.jpg",
     year: "2012",
     grade: "8th Grade",
     caption:
       "Braces acquired. Attitude plentiful. She was 13 and already operating on a different level than the rest of us.",
-    rotate: "-1deg",
+    rotate: "1deg",
   },
 ];
 
@@ -463,7 +503,7 @@ export default function Home() {
               className="text-xs tracking-widest uppercase mb-4 font-semibold"
               style={{ color: GOLD }}
             >
-              Exhibit A through C
+              Exhibit A through H
             </p>
             <h2
               className="text-4xl md:text-5xl font-bold mb-2"
@@ -489,7 +529,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-start">
             {schoolPhotos.map((photo) => (
               <div key={photo.src} className="flex flex-col items-center">
                 <div
@@ -540,8 +580,8 @@ export default function Home() {
                 fontFamily: "var(--font-playfair, Georgia, serif)",
               }}
             >
-              &ldquo;The school portrait era: 2005 – 2013. Eight years. Eight
-              photos. Infinite memories. One legendary blink.&rdquo;
+              &ldquo;The school portrait era: 2005 – 2012. Eight grades. Eight photos.
+              Infinite memories. One legendary blink. Dad bought every single package.&rdquo;
             </p>
           </div>
         </div>
